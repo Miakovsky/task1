@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Euclid Circular';
+    src: url('font/EuclidCircularA.ttf');
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Euclid Circular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Euclid Circular';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: up
+
+}
+
+.header {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 25px;
+}
+.logo-small {
+    position:absolute;
+    margin-left: 50%;
+}
+
+.corner {
+    display: flex;
+}
+.corner>* {
+    font-family: 'Euclid Circular';
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.search{
+    margin-top: 4.5px;
+    width: 14px;
+    height: 15.66px;
+}
+
+.collections {
+    margin-top: 168px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+
+.product-block {
+    display: flex;
+    margin-left: -8px;
+    margin-top: 5px;
+}
+
+.img {
+    width: 960px; 
+    height: 550px; 
+    object-fit: none;
+    flex-shrink: 0;
+}
+
+.img1 {
+    object-position: 1% 95%;
+}
+
+.img2 {
+    object-position: 0% 95%;
+}
+
+.img3 {
+    object-position: 91% 14%;
+}
+
+.img4 {
+    object-position: 91% 17%;
+}
+
+.img5 {
+    object-position: 97% 63%;
+}
+
+.img6 {
+    object-position: 97% 38.5%;
+}
+
+
+.product-info {
+    display: grid;
+    grid-auto-flow:row;
+    width: 600px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-right: 61px;
+    align-content:space-between;
+}
+
+.product-text>p {
+    line-height: 25px;
+}
+
+.product-series {
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer {
+    margin: 30px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: -5%;
+}
+
+.socials>* {
+    margin-left: 18px;
+}
+
+.credits {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights {
+    display: flex;
+    column-gap: 30px;
+}
